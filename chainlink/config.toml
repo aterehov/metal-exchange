@@ -1,0 +1,23 @@
+[Log]
+Level = 'warn'
+
+[WebServer]
+AllowOrigins = '\*'
+SecureCookies = false
+
+[WebServer.TLS]
+HTTPSPort = 0
+
+[[EVM]]
+ChainID = '11155111'
+
+[[EVM.Nodes]]
+Name = 'Chainstack'
+WSURL = 'wss://ethereum-sepolia.core.chainstack.com/07c850ad78515c6f4380e8c02ecfcfba'
+HTTPURL = 'https://ethereum-sepolia.core.chainstack.com/07c850ad78515c6f4380e8c02ecfcfba'
+
+[[EVM.Nodes]]
+Name = 'Infura'
+WSURL = 'wss://sepolia.infura.io/ws/v3/78ddda6ac9144f9db607495972133810'
+HTTPURL = 'https://sepolia.infura.io/v3/78ddda6ac9144f9db607495972133810'
+
